@@ -1,0 +1,26 @@
+.altnav {
+    display: none;
+}
+
+@media (max-width : 700px) {
+    .navbar {
+        display: none;
+    }
+
+    .altnav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .altnav h1 {
+        font-size: 20px;
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+
+    .altnav .btn {
+        margin-right: 10px;
+    }
+}
